@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ColorAdapt</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a class="logoUp" href="index.html">ColorAdapt.</a>
+      <section class="headerLinks">
+        <a class="HeaderAbout" href="#">About</a>
+        <a class="HeaderProduct" href="#">Product</a>
+        <a class="HeaderAccount" href="#">Account</a>
+      </section>
+      <section class="headerButtons">
+        <a class="HeaderLogIn" href="#">Log In</a>
+        <a class="HeaderSignUp" href="#">Sign Up</a>
+      </section>
+    </header>
+    <main>
+      <div class="seperator"></div>
+      <section class="heroSU">
+        <form action="/signup" method="post">
+          <h2>Sign Up</h2>
+          <input type="text" name="username" placeholder="Username" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="password"
+            name="confirm_password"
+            placeholder="Confirm Password"
+            required
+          />
+          <a class="logIn" href="#"
+            >Already have an account? <strong>Log In</strong></a
+          >
+          <button type="submit">Sign Up</button>
+        </form>
+      </section>
+      <div class="seperator"></div>
+    </main>
+    <footer>
+      <h1 class="footerTitle">ColorAdapt.</h1>
+      <a class="footerInstagram" href="#">Instagram</a>
+      <a class="footerTwitter" href="#">Twitter</a>
+      <a class="footerYoutube" href="#">YouTube</a>
+      <p class="footerName">Timo Lõhmus JPG</p>
+    </footer>
+  </body>
+</html>
