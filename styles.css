@@ -348,3 +348,17 @@ button {
     gap: 2rem;
   }
 }
+
+@media (max-width: 540px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .headerLinks {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+}
