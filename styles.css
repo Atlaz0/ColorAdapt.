@@ -332,7 +332,8 @@ button {
   }
 
   header {
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 4rem;
+    display: flex;
   }
 
   .headerButtons {
@@ -358,7 +359,5 @@ button {
   .headerLinks {
     display: flex;
     align-content: center;
-    flex-direction: column;
-    padding: 0 2rem;
   }
 }
