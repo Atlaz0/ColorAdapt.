@@ -30,7 +30,6 @@ a {
 
 header {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   max-height: 5rem;
@@ -324,6 +323,12 @@ button {
   font-weight: 500;
 }
 
+@media (max-width: 800px) {
+  .footerButtons {
+    gap: 2rem;
+  }
+}
+
 @media (max-width: 740px) {
   h1,
   p,
@@ -338,15 +343,47 @@ button {
 
   .headerButtons {
     display: flex;
-    flex-wrap: wrap;
   }
 
   .headerLinks {
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .footerButtons {
     gap: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .content1 p,
+  .content2 p,
+  .content1 h1,
+  .content2 h1 {
+    font-size: 12px;
+  }
+
+  .content1img {
+  width: 8rem;
+  height: 6rem;
+  }
+
+  .content2title,
+  .content2title2 {
+  margin: 0.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -359,5 +396,13 @@ button {
   .headerLinks {
     display: flex;
     align-content: center;
+  }
+}
+
+@media (max-width: 340px) {
+  .footerButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }

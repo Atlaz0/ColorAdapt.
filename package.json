@@ -3,6 +3,14 @@
     "start": "servor --reload"
   },
   "dependencies": {
+    "express": "^5.1.0",
     "servor": "^4.0.2"
-  }
+  },
+  "name": "coloradapt.",
+  "version": "1.0.0",
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
